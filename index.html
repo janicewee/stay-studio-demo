@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STAY STUDIO | Nail, Lash & Hair | Bukit Panjang</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; line-height: 1.6; color: #333; background: #fff; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+        header { padding: 24px 0; border-bottom: 1px solid #f0f0f0; }
+        .logo { font-family: 'Playfair Display', serif; font-size: 28px; font-weight: 600; color: #1a1a1a; letter-spacing: 3px; }
+        .rating { color: #f4c430; font-size: 18px; margin-top: 4px; }
+        .badge { display: inline-block; background: #e8f5e9; color: #2e7d32; padding: 6px 16px; border-radius: 20px; font-size: 14px; font-weight: 500; margin-top: 12px; margin-right: 8px; }
+        .hero { padding: 80px 0 60px; text-align: center; background: linear-gradient(to bottom, #fff 0%, #faf8f6 100%); }
+        .hero h1 { font-family: 'Playfair Display', serif; font-size: 48px; font-weight: 400; color: #1a1a1a; margin-bottom: 16px; }
+        .hero p { font-size: 20px; color: #666; max-width: 600px; margin: 24px auto 40px; font-weight: 300; }
+        .btn { display: inline-block; padding: 16px 40px; background: #1a1a1a; color: #fff; text-decoration: none; border-radius: 4px; font-weight: 500; font-size: 16px; transition: all 0.3s ease; }
+        .btn:hover { background: #333; transform: translateY(-2px); }
+        .btn-outline { background: transparent; border: 2px solid #1a1a1a; color: #1a1a1a; margin-left: 16px; }
+        .btn-outline:hover { background: #1a1a1a; color: #fff; }
+        .hero-image { margin-top: 60px; }
+        .hero-image img { width: 100%; max-width: 900px; height: 400px; object-fit: cover; border-radius: 8px; box-shadow: 0 20px 60px rgba(0,0,0,0.1); }
+        .services { padding: 80px 0; background: #fff; }
+        .section-title { font-family: 'Playfair Display', serif; font-size: 36px; text-align: center; margin-bottom: 60px; color: #1a1a1a; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; }
+        .service-card { padding: 40px; background: #faf8f6; border-radius: 8px; text-align: center; transition: transform 0.3s ease; }
+        .service-card:hover { transform: translateY(-5px); }
+        .service-icon { font-size: 48px; margin-bottom: 20px; }
+        .service-card h3 { font-family: 'Playfair Display', serif; font-size: 24px; margin-bottom: 12px; color: #1a1a1a; }
+        .service-card p { color: #666; font-size: 15px; }
+        .about { padding: 80px 0; background: #1a1a1a; color: #fff; text-align: center; }
+        .about h2 { font-family: 'Playfair Display', serif; font-size: 36px; margin-bottom: 24px; }
+        .about p { max-width: 700px; margin: 0 auto; font-size: 18px; color: #999; font-weight: 300; }
+        .contact { padding: 80px 0; background: #faf8f6; text-align: center; }
+        .contact-info { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; max-width: 800px; margin: 40px auto 0; }
+        .contact-item h4 { font-family: 'Playfair Display', serif; font-size: 20px; margin-bottom: 12px; color: #1a1a1a; }
+        .contact-item p { color: #666; }
+        .contact-item a { color: #1a1a1a; text-decoration: none; border-bottom: 1px solid #1a1a1a; }
+        .cta { padding: 100px 0; text-align: center; background: #fff; }
+        .cta h2 { font-family: 'Playfair Display', serif; font-size: 42px; margin-bottom: 20px; color: #1a1a1a; }
+        .cta p { color: #666; font-size: 18px; margin-bottom: 40px; }
+        footer { padding: 40px 0; background: #1a1a1a; color: #666; text-align: center; font-size: 14px; }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 36px; }
+            .btn { display: block; margin: 12px auto; }
+            .btn-outline { margin-left: auto; }
+            .services-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">STAY STUDIO</div>
+            <div class="rating">★★★★★ 4.8 (65 reviews)</div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Your Beauty Destination</h1>
+            <div class="badge">On-Site Services</div>
+            <p style="margin-top: 24px;">Premium nail, lash, and hair services in Bukit Panjang. Appointments recommended. Walk in or call to book.</p>
+            <a href="tel:+6583362699" class="btn">Call 8336 2699</a>
+            <a href="tel:+6583362699" class="btn btn-outline">Book Now</a>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=900&h=400&fit=crop" alt="Beauty salon interior">
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💅</div>
+                    <h3>Nail Services</h3>
+                    <p>Gel manicure, nail extensions, sculpted nails, nail art</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👁️</div>
+                    <h3>Lash Extensions</h3>
+                    <p>Natural and dramatic lash extensions</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✂️</div>
+                    <h3>Hair Services</h3>
+                    <p>Haircut, perm, rebonding, colouring</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">✨</div>
+                    <h3>Eyebrow Embroidery</h3>
+                    <p>Semi-permanent brow tattoo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>Why Customers Love Us</h2>
+            <p>"I'm a loyal regular here. Their nail and lash work is consistently beautiful, precise, and long-lasting. Hygienic tools, calm ambience, and friendly staff make every visit relaxing. Appointments run on time, prices are fair, and designs are trendy yet classy. Always leave confident and camera-ready." — Backham Tey</p>
+        </div>
+    </section>
+
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Visit Us</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h4>Address</h4>
+                    <p>Block 258 Bukit Panjang Ring Rd, #01-54<br>Singapore 670258</p>
+                </div>
+                <div class="contact-item">
+                    <h4>Phone</h4>
+                    <p><a href="tel:+6583362699">8336 2699</a></p>
+                </div>
+                <div class="contact-item">
+                    <h4>Booking</h4>
+                    <p>Appointments recommended<br>Walk-ins welcome</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2>Book Your Beauty Session</h2>
+            <p>Contact us for pricing and appointments</p>
+            <a href="tel:+6583362699" class="btn">Call to Book</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 STAY STUDIO. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
